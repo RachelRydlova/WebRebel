@@ -1,0 +1,22 @@
+body,
+html {
+	margin: 0;
+}
+
+body {
+	color: #333;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	background: #BEEB9F;
+	padding: 0px 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
+p {
+	font-size: 45px;
+	line-height: 60px;
+}
+
+strong {
+	color: rgb(255, 97, 56);
+	font-style: italic;
+}

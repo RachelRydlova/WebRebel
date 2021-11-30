@@ -1,0 +1,60 @@
+/* general */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+body {
+	color: #fff;
+	font: 20px Rockwell, "Courier Bold", Georgia, serif;
+	font-weight: bold;
+	background: #f7f6d3;
+	padding: 0 20px;
+}
+
+
+/* layout */
+.group {
+	margin: 30px;
+	width: 100%;
+	max-width: 1120px; 
+	display: table;
+}
+
+article, aside { 
+	height: 400px;
+	border-radius: 8px;
+	display: table-cell; 
+	vertical-align: top;
+}
+
+article {
+	background: #3b9ae1; 
+}
+	
+aside {
+	background: #e64134;
+	width: 300px;
+}
+
+article p {
+	padding: 0 6.226415094%; 
+}
+
+aside p {
+	padding: 0 13.2%; 
+}

@@ -1,0 +1,33 @@
+body {
+	color: #333;
+	font: normal 18px/30px 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.container {
+	width: 760px;
+	margin: 0 auto;
+}
+
+section {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.section-1 {
+	color: #fdeaea;
+	background: #f25f5c;
+}
+
+.section-2 {
+	background: #f2ecbd;
+}
+
+.section-3 {
+	background: #8abeb2;
+}

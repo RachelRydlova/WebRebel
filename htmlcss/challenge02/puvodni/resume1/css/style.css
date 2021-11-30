@@ -1,0 +1,69 @@
+body {
+	width: 500px;
+	padding-left: 400px;
+	background: #00bdbd;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+
+}
+
+header {
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 150;
+	line-height: 25px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
+}
+
+
+img {
+	border-radius: 87%;
+	padding-top: 40px;
+	width: 200px;
+}
+
+a {
+	text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+
+.bntDownload:focus {
+    background: #373d4c;
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.resume {
+	text-align: left;
+}
+
+.btnDownload {
+	font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background: #474d5d;
+    padding: 16px 22px;
+    display: inline-block;
+
+}

@@ -1,0 +1,89 @@
+ep32: SPATNA KOMPATIBILITA SO STARYMI PREHLIADACMI
+
+uz som spominal, a ak nespominal, tak spominam teraz
+zamladi sme polovicu casu travili realnym kodenim a druhu v snahe rozbehat stranku v starych exloreroch. situacia je teraz omnoho lepsie, ale stale sa moze stat, ze stranky nebudu vyzerat indenticky vo vsetkych prehliadacoch
+
+a pravda je takto - stranky NEMUSIA vyzerat identicky vo vsetkych prehliadacoch
+dolezite je, aby informacie boli zachovane, layout bol zachovany, vsetko bolo funkcne a vsetko bolo pekne. ale nemusi to byt na PIXEL identicke medzi prehliadacmi a NA PIXEL sa zhodovat s dizajnom, ktory ste ako koder dostali.
+
+ak bude problem, zbadate to velmi rychlo. rozbite stranky, poposuvane veci, 3 okna mali byt vedla seba ale su len dve a tretie je na dalsom riadku. toto su veci, ktore treba opravit.
+
+ak vsak niekam date pomocou CSSka gradient a nebude sa zobrazovat v nejakom IE8, vsetko je v poriadku. pouzite namiesto gradientu peknu plnu farbu a vybavte stare prehliadace tak. iba moderni ludia si zasluzia najkrajsie stranky;) 
+
+avsak
+jedna VELMI DOLEZITE VEC
+ak potrebujete podporovat Internet Explorer 8, co potrebujete, ak tieto videa pozerate priblizne v dobe vydania, v roku 2014
+
+tak pocuvajte sem
+do headera kazdej stranky, na koniec html head elementu pridajte HTML5 SHIV
+
+	https://code.google.com/p/html5shiv/
+
+
+bud mozete ten subor stiahnut, rozbalit do adresa so strankou a zmenit src atribut na cestu k vami rozbalenemu suboru
+
+alebo jednoduchsie - mozete skopirovat tento kus kodu 
+
+	<!--[if lt IE 9]>
+		<script src="dist/html5shiv.js"></script>
+	<![endif]-->
+
+
+na koniec HEAD elementu 
+behnut na adresu 
+
+	http://cdnjs.com/libraries/html5shiv
+
+
+a skopirovat tento riadok, ktory obsahuje html5shiv.min.js
+	
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
+
+
+tento zapis zmanena, ze ak prehliadac je starsi ako IE9, cize IE8, 7 atd..
+prida sa na stranku skript
+a ten v skratke sposobi iba tolko, ze zacnut v IE8 a nizsie fungovat HTML5 elementy
+
+pocas kurzu sme sa ucili elementy ako HEADER, FOOTER, MAIN, SECTION, ASIDE ktore patria medzi HTML5 elementy a tento stary prehliadac potreubje nakopnut trosku, aby im zacal rozumiet
+ 
+to je jedna vec
+druha vec - uistite sa, ze pouzivate bud normalize alebo css reset
+ak odmietate, skopirujte tuto cast na uvod vasho CSS 
+
+	article,
+	aside,
+	details,
+	figcaption,
+	figure,
+	footer,
+	header,
+	hgroup,
+	main,
+	menu,
+	nav,
+	section,
+	summary {
+		display: block;
+	} 
+
+
+znova ide o nakopnutie starych prehliadacov
+
+kde ten skript povie prehliadacu HEJ, TIETO ELEMENTY EXISTUJU
+tento CSS zapis im povie, HEJ, TIETO ELEMENTY MAJU BYT BLOCK LEVEL ELEMENTY 
+
+toto su 2 veci, ktore si treba zapamatat
+pridat HTML5 SHIV
+pridat tento CSS zapis
+
+opakujem, toto CSS je sucastou normalize.css aj kazdeho dobreho reset.css 
+
+ak pozerate v buducnosti, v sladkej buducnosti, kde kazdy prdi na internet explorer 8, tak *prrrrd*
+na toto mozete kaslat
+
+a zit svoj krasny zivot a jazdit na hoverbordoch a zadrhnut sa hologramom alebo co robite vy vesmirne deti zasrane.. oblejzrovane. 
+
+ok
+budte na seba dobri

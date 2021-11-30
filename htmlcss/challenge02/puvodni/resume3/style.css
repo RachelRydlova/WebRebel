@@ -1,0 +1,37 @@
+body {
+	background: #fdf8f2;
+	text-align: center;
+}
+
+img {
+	width: 20%;
+	border-radius: 50%;
+	height: 207px;
+}
+
+.name {
+	background: black;
+	margin: 21px;
+	color: #eee;
+	text-transform: uppercase;
+	padding: 5px;
+	width: 23%;
+	margin-left: 450px;
+	letter-spacing: 0.9px;
+}
+
+h3 {
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.text {
+	width: 45%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+
+}

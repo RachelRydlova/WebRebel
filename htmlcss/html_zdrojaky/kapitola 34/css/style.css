@@ -1,0 +1,208 @@
+body {
+	color: #323232;
+	background: #eeefed;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after, 
+.group:after,
+.menu:after {
+    content: " "; 
+    display: table; 
+}
+
+.container:after,
+.group:after,
+.main:after {
+    clear: both;
+}
+
+.container,
+.group,
+.main {
+    *zoom: 1;
+}
+
+h1,
+h2,
+li,
+a,
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #323232;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 38px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	float: left;
+}
+
+.contact {
+	background: #39a3d4;
+}
+
+.contact,
+.contact a {
+	color: #eeefed;
+}
+
+.contact .container {
+	height: 84px;
+}
+
+.personal {
+	font-size: 14px;
+	line-height: 84px;
+}
+
+.personal .fa {
+	font-size: 28px;
+	margin-right: 4px;
+	position: relative;
+	top: 2px;
+}
+
+.personal li {
+	color: #e5e6e4;
+	margin-right: 70px;
+}
+
+.social {
+	margin-top: 18px;
+}
+
+.social a {
+	color: #989898;
+	font-size: 20px;
+	display: inline-block;
+	height: 46px;
+	width: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: #eeefed;
+	margin-left: 3px;
+	border-radius: 2px;
+}
+
+.social a:hover {
+	background: #5bd0ec;
+}
+
+.navigation {
+	background: #f2f2f2;
+}
+
+.main-navigation a {
+	display: inline-block;
+	height: 120px;
+	color: #a6a6a6;
+	border-left: 1px solid #cecece;
+	width: 135px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main-navigation li:last-child a {
+	border-right: 1px solid #cecece;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+	color: #de5728;
+}
+
+.main-navigation .fa {
+	font-size: 32px;
+	margin-top: 32px;
+	margin-bottom: 5px;
+	display: block;
+	font-weight: normal;
+}
+
+.logo h1 {
+	margin: 0;
+	color: #de5728;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 40px;
+}
+
+.logo strong {
+	color: #323232;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+#map {
+	width: 100%;
+	height: 624px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

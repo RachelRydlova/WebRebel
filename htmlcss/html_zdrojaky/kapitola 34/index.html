@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nauč sa HTML a CSS</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<section class="contact">
+			<div class="container">
+				<div class="contact group">
+					<ul class="menu personal float-left">
+						<li><i class="fa fa-phone fa-lg"></i>&nbsp; +421 900 111 222</li>
+						<li><i class="fa fa-envelope fa-lg"></i>&nbsp; tomas@cloudfender.com</li>
+					</ul>
+					<ul class="menu social float-right">
+						<li><a href="#" class="social-icon"><i class="fa fa-github"></i></a></li>
+						<li><a href="#" class="social-icon"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="navigation">
+			<div class="container">
+				<div class="navigation group">
+					<a href="#" class="logo float-left">
+						<h1><strong>NIGHT</strong>FURY<i class="fa fa-fire"></i></h1>
+					</a>
+					<nav class="float-right">
+						<ul class="menu main-navigation">
+							<li><a href="index.html"><i class="fa fa-shield fa-2x"></i>Domov</a></li>
+							<li class="selected"><a href="portfolio.html"><i class="fa fa-leaf fa-2x"></i>Portfolio</a></li>
+							<li><a href="about.html"><i class="fa fa-bolt fa-2x"></i>O nás</a></li>
+							<li><a href="contact.html"><i class="fa fa-trophy fa-2x"></i>Kontakt</a></li>
+						</ul>	
+					</nav>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<main>
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2662.1841453927286!2d17.110604!3d48.14525500000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c89436623fb9d%3A0x9f9ce88fe19b88c3!2sThe+Spot!5e0!3m2!1sen!2ssk!4v1412717371389" frameborder="0" style="border:0"></iframe>
+
+		<article class="container">
+			<h2>Kontaktný formulár</h2>
+
+			<div class="group">
+				<form action="#" method="post" class="float-left">
+					<label for="name">
+						Meno
+						<input type="text" name="name" id="name" value="" tabindex="1">
+					</label>
+					
+					<label for="email">
+						E-Mail
+						<input type="email" name="email" id="email" value="" tabindex="2">
+					</label>
+
+					<label for="textarea">
+						Textarea
+						<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+					</label>
+					
+					<input type="submit" value="Odoslať">
+				</form>
+				<div class="float-right">
+					NightFury s.r.o.<br>
+					The Spot<br>
+					Námestie SNP 488/30<br>
+					811 01 Bratislava<br>
+					Slovensko
+				</div>
+			</div>
+		</article>
+	</main>
+
+</body>
+</html>
